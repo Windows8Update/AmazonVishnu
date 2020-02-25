@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="amazonpopup.CreateWishList">
+        <methods>
+          <include name="ThirdTest"/>
+          <include name="beforeClass"/>
+          <include name="SecondTest"/>
+          <include name="FirstTest"/>
+          <include name="beforeMethod"/>
+          <include name="FourthTest"/>
+          <include name="FifthTest"/>
+          <include name="afterMethod"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- amazonpopup.CreateWishList -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
